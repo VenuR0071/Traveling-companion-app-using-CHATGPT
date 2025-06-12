@@ -103,22 +103,6 @@ The Traveling Companion App is a React Native mobile application that provides r
    - Receive AI-driven responses powered by ChatGPT.
    - Save preferences (e.g., favorite destinations) to MongoDB for personalized recommendations.
 
-## Project Structure
-
-```
-traveling-companion-app/
-├── backend/
-│   ├── server.js           # Express server setup and API routes
-│   ├── models/             # Mongoose schemas for MongoDB
-│   ├── routes/             # API routes for user and ChatGPT interactions
-│   ├── package.json        # Backend dependencies
-│   ├── .env               # Environment variables (API keys, MongoDB URI)
-├── frontend/
-│   ├── App.js             # Main React Native app component
-│   ├── src/               # App screens and components
-│   ├── package.json       # Frontend dependencies
-├── README.md              # Project documentation
-```
 
 ## Usage
 
@@ -156,9 +140,6 @@ traveling-companion-app/
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Open a Pull Request.
 
-## License
-
-MIT License. See [LICENSE](LICENSE) for details.
 
 ## Contact
 
